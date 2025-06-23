@@ -1,0 +1,145 @@
+
+> v4@0.1.0 build /Users/matt.pezzente/Code/lightcast/shadcn-source/apps/v4
+> pnpm --filter=shadcn build && next build
+
+
+> shadcn@2.7.0 build /Users/matt.pezzente/Code/lightcast/shadcn-source/packages/shadcn
+> tsup
+
+[34mCLI[39m Building entry: src/index.ts, src/registry/index.ts, src/mcp/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v6.7.0
+[34mCLI[39m Using tsup config: /Users/matt.pezzente/Code/lightcast/shadcn-source/packages/shadcn/tsup.config.ts
+[34mCLI[39m Target: esnext
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mDTS[39m Build start
+[32mESM[39m [1mdist/chunk-CRHL7BFC.js     [22m[32m4.40 KB[39m
+[32mESM[39m [1mdist/chunk-JJ2VRW56.js     [22m[32m23.00 KB[39m
+[32mESM[39m [1mdist/registry/index.js     [22m[32m492.00 B[39m
+[32mESM[39m [1mdist/index.js              [22m[32m70.89 KB[39m
+[32mESM[39m [1mdist/mcp/index.js          [22m[32m148.00 B[39m
+[32mESM[39m [1mdist/chunk-CRHL7BFC.js.map [22m[32m10.82 KB[39m
+[32mESM[39m [1mdist/chunk-JJ2VRW56.js.map [22m[32m83.80 KB[39m
+[32mESM[39m [1mdist/registry/index.js.map [22m[32m51.00 B[39m
+[32mESM[39m [1mdist/index.js.map          [22m[32m278.13 KB[39m
+[32mESM[39m [1mdist/mcp/index.js.map      [22m[32m51.00 B[39m
+[32mESM[39m ⚡️ Build success in 412ms
+[32mDTS[39m ⚡️ Build success in 3582ms
+[32mDTS[39m [1mdist/mcp/index.d.ts      [22m[32m598.00 B[39m
+[32mDTS[39m [1mdist/index.d.ts          [22m[32m490.00 B[39m
+[32mDTS[39m [1mdist/registry/index.d.ts [22m[32m475.00 B[39m
+[32mDTS[39m [1mdist/index-b1f11e1c.d.ts [22m[32m55.67 KB[39m
+   [1m[38;2;173;127;168m▲ Next.js 15.3.1[39m[22m
+   - Environments: .env
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+[MDX] updated map file in 603.7107090000002ms
+ [33m[1m⚠[22m[39m Compiled with warnings in 3.3min
+
+../../node_modules/.pnpm/cosmiconfig@8.3.6_typescript@4.9.5/node_modules/cosmiconfig/dist/loaders.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/.pnpm/cosmiconfig@8.3.6_typescript@4.9.5/node_modules/cosmiconfig/dist/loaders.js
+../../node_modules/.pnpm/cosmiconfig@8.3.6_typescript@4.9.5/node_modules/cosmiconfig/dist/index.js
+../../packages/shadcn/dist/chunk-JJ2VRW56.js
+../../packages/shadcn/dist/registry/index.js
+./app/(view)/view/[name]/page.tsx
+
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/filesystem.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/filesystem.js
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/match-path-sync.js
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/index.js
+../../packages/shadcn/dist/chunk-JJ2VRW56.js
+../../packages/shadcn/dist/registry/index.js
+./app/(view)/view/[name]/page.tsx
+
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/match-path-async.js
+require.extensions is not supported by webpack. Use a loader instead.
+
+Import trace for requested module:
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/match-path-async.js
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/index.js
+../../packages/shadcn/dist/chunk-JJ2VRW56.js
+../../packages/shadcn/dist/registry/index.js
+./app/(view)/view/[name]/page.tsx
+
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/match-path-sync.js
+require.extensions is not supported by webpack. Use a loader instead.
+
+Import trace for requested module:
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/match-path-sync.js
+../../node_modules/.pnpm/tsconfig-paths@4.2.0/node_modules/tsconfig-paths/lib/index.js
+../../packages/shadcn/dist/chunk-JJ2VRW56.js
+../../packages/shadcn/dist/registry/index.js
+./app/(view)/view/[name]/page.tsx
+
+../../node_modules/.pnpm/typescript@4.9.5/node_modules/typescript/lib/typescript.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/.pnpm/typescript@4.9.5/node_modules/typescript/lib/typescript.js
+../../node_modules/.pnpm/cosmiconfig@8.3.6_typescript@4.9.5/node_modules/cosmiconfig/dist/loaders.js
+../../node_modules/.pnpm/cosmiconfig@8.3.6_typescript@4.9.5/node_modules/cosmiconfig/dist/index.js
+../../packages/shadcn/dist/chunk-JJ2VRW56.js
+../../packages/shadcn/dist/registry/index.js
+./app/(view)/view/[name]/page.tsx
+
+ [37m[1m [22m[39m Skipping validation of types
+[?25l [37m[1m [22m[39m Linting  [36m.[39m[2K[1G [37m[1m [22m[39m Linting  [36m..[39m[2K[1G [37m[1m [22m[39m Linting  [36m...[39m[2K[1G [37m[1m [22m[39m Linting  [36m.[39m[2K[1G [37m[1m [22m[39m Linting  [36m..[39m[2K[1G [37m[1m [22m[39m Linting  [36m...[39m[2K[1G [37m[1m [22m[39m Linting  [36m.[39m[2K[1G [37m[1m [22m[39m Linting  [36m..[39m[2K[1G [37m[1m [22m[39m Linting  [36m...[39m[2K[1G [37m[1m [22m[39m Linting  [36m.[39m[2K[1G [37m[1m [22m[39m Linting  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Linting     [32m[1m✓[22m[39m Linting 
+[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
+[?25l [37m[1m [22m[39m Generating static pages (0/400)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/400)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/400)  [36m[==  ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/400)  [36m[=== ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/400)  [36m[ ===][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/400)  [36m[  ==][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/400)  [36m[   =][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/400)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/400)  [36m[   =][39m[2K[1G [37m[1m [22m[39m Generating static pages (1/400)  [36m[  ==][39m[2K[1G [37m[1m [22m[39m Generating static pages (8/400)  [36m[ ===][39m[2K[1G [37m[1m [22m[39m Generating static pages (8/400)  [36m[====][39m[2K[1G [37m[1m [22m[39m Generating static pages (8/400)  [36m[=== ][39m[2K[1G [37m[1m [22m[39m Generating static pages (8/400)  [36m[==  ][39m[2K[1G [37m[1m [22m[39m Generating static pages (48/400)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (48/400)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (237/400)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (254/400)  [36m[==  ][39m[2K[1G [37m[1m [22m[39m Generating static pages (254/400)  [36m[=== ][39m[2K[1G [37m[1m [22m[39m Generating static pages (254/400)  [36m[ ===][39m[2K[1G [37m[1m [22m[39m Generating static pages (254/400)  [36m[  ==][39m[2K[1G [37m[1m [22m[39m Generating static pages (263/400)  [36m[   =][39m[2K[1G [37m[1m [22m[39m Generating static pages (272/400)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (272/400)  [36m[   =][39m[2K[1G [37m[1m [22m[39m Generating static pages (282/400)  [36m[  ==][39m[2K[1G [37m[1m [22m[39m Generating static pages (288/400)  [36m[ ===][39m[2K[1G [37m[1m [22m[39m Generating static pages (296/400)  [36m[====][39m[2K[1G [37m[1m [22m[39m Generating static pages (304/400)  [36m[=== ][39m[2K[1G [37m[1m [22m[39m Generating static pages (314/400)  [36m[==  ][39m[2K[1G [37m[1m [22m[39m Generating static pages (314/400)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (314/400)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (314/400)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (322/400)  [36m[==  ][39m[2K[1G [37m[1m [22m[39m Generating static pages (322/400)  [36m[=== ][39m[2K[1G [37m[1m [22m[39m Generating static pages (322/400)  [36m[ ===][39m[2K[1G [37m[1m [22m[39m Generating static pages (322/400)  [36m[  ==][39m[2K[1G [37m[1m [22m[39m Generating static pages (352/400)  [36m[   =][39m[2K[1G [37m[1m [22m[39m Generating static pages (356/400)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (356/400)  [36m[   =][39m[2K[1G [37m[1m [22m[39m Generating static pages (356/400)  [36m[  ==][39m[2K[1G [37m[1m [22m[39m Generating static pages (356/400)  [36m[ ===][39m[2K[1G [37m[1m [22m[39m Generating static pages (356/400)  [36m[====][39m[2K[1G [37m[1m [22m[39m Generating static pages (356/400)  [36m[=== ][39m[2K[1G [37m[1m [22m[39m Generating static pages (356/400)  [36m[==  ][39m[2K[1G [37m[1m [22m[39m Generating static pages (358/400)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (358/400)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (361/400)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (361/400)  [36m[==  ][39m[2K[1G [37m[1m [22m[39m Generating static pages (361/400)  [36m[=== ][39m[2K[1G [37m[1m [22m[39m Generating static pages (365/400)  [36m[ ===][39m[2K[1G [37m[1m [22m[39m Generating static pages (374/400)  [36m[  ==][39m[2K[1G [37m[1m [22m[39m Generating static pages (382/400)  [36m[   =][39m[2K[1G [37m[1m [22m[39m Generating static pages (390/400)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (390/400)  [36m[   =][39m[2K[1G [37m[1m [22m[39m Generating static pages (390/400)  [36m[  ==][39m[2K[1G [37m[1m [22m[39m Generating static pages (390/400)  [36m[ ===][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (400/400)
+[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces     [32m[1m✓[22m[39m Collecting build traces 
+[2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization     [32m[1m✓[22m[39m Finalizing page optimization 
+
+[4mRoute (app)[24m                                 [4mSize[24m  [4mFirst Load JS[24m  [4mRevalidate[24m  [4mExpire[24m
+┌ ○ /                                    1.58 kB         [37m[1m343 kB[22m[39m          1d      1y
+├ ○ /_not-found                            985 B         [37m[1m107 kB[22m[39m
+├ ○ /blocks                                225 B         [37m[1m589 kB[22m[39m          1d      1y
+├ ● /blocks/[...categories]                224 B         [37m[1m589 kB[22m[39m          1d      1y
+├   ├ /blocks/sidebar                                                    1d      1y
+├   ├ /blocks/dashboard                                                  1d      1y
+├   ├ /blocks/authentication                                             1d      1y
+├   └ [+2 more paths]
+├ ● /charts/[type]                       13.6 kB         [37m[1m586 kB[22m[39m          1d      1y
+├   ├ /charts/area                                                       1d      1y
+├   ├ /charts/bar                                                        1d      1y
+├   ├ /charts/line                                                       1d      1y
+├   └ [+4 more paths]
+├ ○ /colors                              4.29 kB         [37m[1m178 kB[22m[39m          1d      1y
+├ ƒ /dashboard                           13.8 kB         [37m[1m333 kB[22m[39m
+├ ƒ /dashboard-03                        12.6 kB         [37m[1m289 kB[22m[39m
+├ ƒ /dashboard-03/customers                146 B         [37m[1m106 kB[22m[39m
+├ ƒ /dashboard-03/settings               6.82 kB         [37m[1m146 kB[22m[39m
+├ ● /docs/[[...slug]]                    65.2 kB         [37m[1m581 kB[22m[39m          1d      1y
+├   ├ /docs/about                                                        1d      1y
+├   ├ /docs/blocks                                                       1d      1y
+├   ├ /docs/changelog                                                    1d      1y
+├   └ [+87 more paths]
+├ ○ /examples/authentication             3.42 kB         [37m[1m134 kB[22m[39m          1d      1y
+├ ○ /examples/dashboard                  21.3 kB         [37m[1m353 kB[22m[39m          1d      1y
+├ ○ /examples/playground                 15.5 kB         [37m[1m184 kB[22m[39m          1d      1y
+├ ○ /examples/tasks                      11.8 kB         [37m[1m206 kB[22m[39m          1d      1y
+├ ƒ /og                                    146 B         [37m[1m106 kB[22m[39m
+├ ○ /sink                                24.9 kB         [37m[1m436 kB[22m[39m
+├ ○ /themes                              11.2 kB         [37m[1m376 kB[22m[39m          1d      1y
+└ ● /view/[name]                           67 kB         [37m[1m573 kB[22m[39m
+    ├ /view/dashboard-01
+    ├ /view/sidebar-01
+    ├ /view/sidebar-02
+    └ [+278 more paths]
++ First Load JS shared by all             [37m[1m106 kB[22m[39m
+  ├ chunks/6561-39ec7c11b2558f1a.js      46.4 kB
+  ├ chunks/c7b2548f-da2d255bfc32d2f9.js  53.2 kB
+  └ other shared chunks (total)          6.26 kB
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses [36mgenerateStaticParams[39m)
+ƒ  (Dynamic)  server-rendered on demand
+
+[?25h
